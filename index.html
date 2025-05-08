@@ -1,45 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Danveer Dhillon - Personal Portfolio</title>
+  <meta charset="UTF-8">
+  <title>Danveer Dhillon - Portfolio</title>
   <style>
+    /* External-like CSS (inside <style>) */
     body {
-      background-color: #eaf6ff;
-      color: #333;
-      font-family: Verdana, sans-serif;
-      padding: 20px;
-    }
-
-    h1, h2 {
-      color: #2a7ae2;
+      background-color: #f4faff;
+      color: #222;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
     }
 
     nav {
-      margin-bottom: 20px;
+      background-color: #d8ecff;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
     }
 
     nav a {
-      margin-right: 15px;
+      margin: 0 20px;
       text-decoration: none;
-      color: #333;
+      color: #1a1a1a;
       font-weight: bold;
+      font-size: 16px;
     }
 
     nav a:hover {
       text-decoration: underline;
     }
 
-    #about {
-      background-color: #f0f8ff;
-      padding: 20px;
-      margin-top: 40px;
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      border-bottom: 1px solid #ccc;
     }
 
-    #contact {
+    h1, h2 {
+      color: #205493;
+    }
+
+    .about-text {
+      background-color: #e9f4ff;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .contact-box {
       background-color: #fffbe7;
       padding: 20px;
-      margin-top: 40px;
-      font-family: Tahoma;
+      border-radius: 8px;
+      font-family: Tahoma, sans-serif;
     }
   </style>
 </head>
@@ -53,68 +69,30 @@
   </nav>
 
   <!-- Home Section -->
-  <div id="home">
+  <section id="home">
     <h1>Welcome to Danveer Dhillon's Portfolio</h1>
     <p>Hello! This is my personal website where you can learn more about me, my interests, and how to contact me. I enjoy playing sports, learning new things, and building cool projects with technology!</p>
-  </div>
-
-  <hr>
+  </section>
 
   <!-- About Section -->
-  <div id="about">
+  <section id="about">
     <h2>About Me</h2>
-    <p>
-      My name is <span style="color:blue;">Danveer Dhillon</span>. I am thirteen years old, and I am in grade eight. My favourite sports are basketball and badminton. My favourite foods are pizza, burgers, mango, and much more. My classes in school are I.T, Career Education, Humanities, Science, French, and Gurudwara. I am passionate about technology and love exploring new ideas in both sports and academics.
-    </p>
-  </div>
-
-  <hr>
+    <div class="about-text">
+      <p>My name is <span style="color:blue;">Danveer Dhillon</span>. I am thirteen years old, and I am in grade eight. My favourite sports are basketball and badminton. My favourite foods are pizza, burgers, mango, and much more. My classes in school are I.T, Career Education, Humanities, Science, French, and Gurudwara.</p>
+    </div>
+  </section>
 
   <!-- Contact Section -->
-  <div id="contact">
+  <section id="contact">
     <h2>Contact Me</h2>
-    <p>Email: <span style="color: blue;">danveer@example.com</span></p>
-    <p>Follow me on Instagram:
-      <a href="https://instagram.com" target="_blank" style="text-decoration: none; color: purple;">@danveer</a>
-    </p>
-  </div>
+    <div class="contact-box">
+      <p>Email: <span style="color: blue;">danveer@example.com</span></p>
+      <p>Follow me on Instagram:
+        <a href="https://instagram.com" target="_blank" style="color: purple; text-decoration: none;">@danveer</a>
+      </p>
+    </div>
+  </section>
 
 </body>
 </html>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</html>
